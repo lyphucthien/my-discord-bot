@@ -189,17 +189,13 @@ module.exports = (client) => {
                     .setTitle('🌐 ĐỊA CHỈ SERVER MINECRAFT')
                     .setColor('Blue')
                     .setDescription(
-                        '✅ **Hỗ trợ Java + Bedrock**\n' +
-                        '## 🖥️ Java Edition\n' +
+                        '### 🖥️ Java Edition\n' +
                         '```text\n' +
                         'spiral-epa.tun.ply.gg\n' +
-                        '```\n' +
-                        '## 📱 Bedrock Edition\n' +
+                        '### 📱 Bedrock Edition\n' +
                         '```text\n' +
                         'IP: spiral-worse.tun.ply.gg\n' +
-                        'Port: 4830\n' +
-                        '```\n' +
-                        '🎮 Hãy nhập đúng địa chỉ để kết nối đến server.'
+                        'Port: 4830\n'
                     );
 
                 return interaction.reply({
