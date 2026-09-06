@@ -150,7 +150,7 @@ module.exports = (client) => {
             if (interaction.customId === 'mc_key_panel') {
 
                 const embed = new EmbedBuilder()
-                    .setTitle('🔑 Key Xác Thực Server MC')
+                    .setTitle('🔑 Xác Thực Key Server Minecraft')
                     .setColor('Green')
                     .setDescription(
                         '👉 Bấm **Get Key** để lấy Key mới (hạn dùng 3 tiếng).\n' +
@@ -191,11 +191,11 @@ module.exports = (client) => {
                     .setDescription(
                         '### 🖥️ Java Edition\n' +
                         '```text\n' +
-                        'spiral-epa.tun.ply.gg\n' +
+                        'spiral-epa.tun.ply.gg```\n' +
                         '### 📱 Bedrock Edition\n' +
                         '```text\n' +
                         'IP: spiral-worse.tun.ply.gg\n' +
-                        'Port: 4830\n'
+                        'Port: 4830```\n'
                     );
 
                 return interaction.reply({
