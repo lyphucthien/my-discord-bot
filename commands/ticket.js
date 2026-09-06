@@ -181,10 +181,8 @@ module.exports = {
                 .setTitle('🖥️ MY SERVER MC — THÔNG TIN MÁY CHỦ')
                 .setColor('#4b4b4b')
                 .setDescription(
-                    '## 📌 Quy định\n' +
-                    '> Vui lòng đọc <#1503245852129493174> trước khi tham gia.\n\n' +
+                    'Vui Lòng Đọc <#1503245852129493174> Trước Khi Tham Gia Server.\n\n' +
 
-                    '## 🔘 Chức Năng Nút Bấm\n' +
                     '> 🔑 **Key** — Lấy Key và xác thực tài khoản Minecraft để được phép vào server.\n' +
                     '> 🌐 **Địa chỉ Server** — Xem địa chỉ kết nối cho **Java** và **Bedrock**.\n' +
                     '> 🛠️ **Hỗ Trợ** — Tạo Ticket để liên hệ Staff khi gặp lỗi hoặc cần hỗ trợ.\n\n'
